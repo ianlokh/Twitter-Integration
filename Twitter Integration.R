@@ -32,10 +32,15 @@ ltaData = XLConnect::readWorksheet(ltaDataWB, sheet=1,
 
 
 #to get your consumerKey and consumerSecret see the twitteR documentation for instructions
-consumer_key <- 'TYrWFPkFAkn4G5BbkWINYw'
-consumer_secret <- 'qjOkmKYU9kWfUFWmekJuu5tztE9aEfLbt26WlhZL8'
-access_token <- '2853850382-iqWOBCkw0EoLpfgaOVorOZnbf3n79WOi0KqsYH2'
-access_secret <- ' bd49o8uzeNBbtzVaalOUJlOoe9fbIQmwcLaNr7fbbx53R'
+#consumer_key <- 'TYrWFPkFAkn4G5BbkWINYw'
+#consumer_secret <- 'qjOkmKYU9kWfUFWmekJuu5tztE9aEfLbt26WlhZL8'
+#access_token <- '2853850382-iqWOBCkw0EoLpfgaOVorOZnbf3n79WOi0KqsYH2'
+#access_secret <- 'bd49o8uzeNBbtzVaalOUJlOoe9fbIQmwcLaNr7fbbx53R'
+
+consumer_key <- '7PPYKH38pXjxdTCMR2gW7idoZ'
+consumer_secret <- 'JHaymz2hrb0E95AZBERRYDFPCLhewVdzCkVT1Ws1ZORh3uuOpJ'
+access_token <- '2853850382-G876Yy7oSiwFDL3KFiewSuZiIHqUS7BXQ5WOg2v'
+access_secret <- 'Y1tb155NjjJUaM8TNgA9E71GFseYGfZ8VyVEOjDJJ0CsP'
 
 setup_twitter_oauth(consumer_key,
                     consumer_secret)
