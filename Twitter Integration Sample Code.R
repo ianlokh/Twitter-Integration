@@ -13,7 +13,7 @@ access_secret <- 'access_secret'
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 
 #retrieve the tweets from twitter - however the create date is in UTC! so must +8:00 hrs to get to SGT
-ltaTwtr <- searchTwitter("LTAsg + Accident", n=500)
+ltaTwtr <- searchTwitter("LTATrafficNews + Accident", n=500)
 length(ltaTwtr)
 
 #save text
